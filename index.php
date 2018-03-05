@@ -12,7 +12,7 @@
 			<div class="nav">
 				<h2>navbar</h2>
 			</div>
-			<h1>header</h1>
+		<?php include("head.php"); ?>
 		</div>
 		<div class="presentation">
 			<h1>presentation</h1>
