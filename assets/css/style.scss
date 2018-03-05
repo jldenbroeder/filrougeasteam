@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.grid {
+	display: grid;
+	border: 3px solid black;
+	width: 99vw;
+	max-width: 100vw;
+	height: 99vh;
+	max-height: 100vh;
+	grid-template-columns: 1fr;
+	grid-template-rows: 100vh 100vh 100vh 100vh 10vh;
+	.nav {
+		border: 1px solid black;
+	}
+	.header {
+		border: 1px solid black;
+	}
+	.presentation {
+		border: 1px solid black;
+	}
+	.article {
+		border: 1px solid black;
+	}
+	.contact {
+		border: 1px solid black;
+	}
+	.footer {
+		border: 1px solid black;
+	}
+}
