@@ -1,0 +1,34 @@
+.presentation{
+	width: 99vw;
+	max-width:100vw;
+	height: 99vh;
+	max-height: 100vh;
+	background-image:url(../img/presentation0.jpg);
+}
+
+#calque{
+	display: flex;
+	width: 50vw;
+	height: 50vh;
+	margin-top: 15%;
+	margin-left: 5%;
+	background-color: #8A663D;
+	
+}
+
+
+#profil{
+	width: 25vw;
+	height: 50vh;
+	background-color: black;
+	opacity: 0.5;
+}
+
+#textprofil{
+	
+
+	width: 25vw;
+	height: 50vh;
+	color: black;
+	opacity: none !important;
+}
