@@ -11,8 +11,7 @@
 	width: 50vw;
 	height: 50vh;
 	margin-top: 15%;
-	margin-left: 5%;
-	background-color: #8A663D;
+	
 	
 }
 
@@ -21,7 +20,10 @@
 	width: 25vw;
 	height: 50vh;
 	background-color: black;
-	opacity: 0.5;
+	margin-left: 5%;
+	/*background-color: rgba(138,102,61,0.7);*/
+	margin-right: 0;
+	background-color: rgba(0,0,0,0.7);
 }
 
 #textprofil{
@@ -29,6 +31,29 @@
 
 	width: 25vw;
 	height: 50vh;
-	color: black;
-	opacity: none !important;
+	color:white;
+	margin-left: 5%;
+	/*background-color: rgba(138,102,61,0.7);*/
+	margin: 0;
+	background-color: rgba(0,0,0,0.7);
+}
+
+#textprofil p{
+	margin-top: 15%;
+	margin-right: 10%;
+	text-align: center;
+	font-size: 2vh;
+}
+
+#hello{
+	text-decoration: underline;
+}
+
+#profilimg{
+	width: 15vw;
+	height: 26vh;
+	margin-top: 25%;
+	margin-left: 20%;
+	box-shadow: 5px 5px 5px black;
+
 }
