@@ -43,7 +43,6 @@ html body {
   grid-column: 1;
   grid-row: 1;
   background-color: #a1b8cd;
-
 }
 .presentation {
   grid-column: 1;
@@ -61,5 +60,6 @@ html body {
   grid-column: 1;
   grid-row: 1;
 }
+
 
 /*# sourceMappingURL=style.css.map */

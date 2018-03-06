@@ -21,22 +21,22 @@
     </div>
     <div class="grid">
       <div class="presentation">
-        <h1>presentation</h1>
+        <?php include('presentation.php');?>
       </div>
     </div>
     <div class="grid">
       <div class="article">
-        <h1>articles</h1>
+        <!-- <?php include('article.php'); ?> -->
       </div>
     </div>
     <div class="grid">
       <div class="contact">
-        <h1>contact</h1>
+        <?php include('contact.php');?>
       </div>
     </div>
     <div class="grid">
       <div class="footer">
-        <h1>footer</h1>
+        <!-- <?php include('footer.php'); ?> -->
       </div>
     </div>
     <script type="text/javascript" src="assets/js/script-nav.js"></script>

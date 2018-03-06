@@ -1,0 +1,191 @@
+h1 {
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: -1%;
+}
+
+h5 {
+	text-align: center;
+	margin-top: 2%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.sectionArticle {
+	display: grid;
+	width: 99vw;
+	max-width: 100vw;
+	height: 100vh;
+	max-height: 100vh;
+	font-family: ubuntu;
+	color: rgba(255,255,255,0.9);
+	background: {
+		image: url(../img/fondarticle.jpg);
+		repeat: no-repeat;
+		size: cover;
+	}
+}
+
+.gridArticle {
+	display: grid;
+	width: 88vw;
+	max-width: 100vw;
+	height: 80vh;
+	max-height: 100vh;
+	margin-left: 5%;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 42vh 42vh;
+	grid-gap: 1%;
+}
+
+.A {
+	background: {
+		image: url(../img/Alain_Goraguer_Déshominisation_I.jpg);
+		repeat: no-repeat;
+		size: cover;
+	}
+	.boutonA {
+		border-radius: 50%;
+		width: 30%;
+		height: 30%;
+		margin-top: 35%;
+		margin-left: 35%;
+		position: relative;
+		z-index: 2;
+		background-color: rgba(0,0,0,0.8);
+	}
+}
+
+.B {
+	background: {
+		image: url(../img/AshaBhosl_dumMaroDum.jpg);
+		repeat: no-repeat;
+		size: cover;
+	}
+	.boutonB {
+		border-radius: 50%;
+		width: 30%;
+		height: 30%;
+		margin-top: 35%;
+		margin-left: 35%;
+		position: relative;
+		z-index: 2;
+		background-color: rgba(0,0,0,0.8);
+	}
+}
+
+.C {
+	background: {
+		image: url(../img/BrunoNicolai_Whisky..jpg);
+		repeat: no-repeat;
+		size: cover;
+	}
+	.boutonC {
+		border-radius: 50%;
+		width: 30%;
+		height: 30%;
+		margin-top: 35%;
+		margin-left: 35%;
+		position: relative;
+		z-index: 2;
+		background-color: rgba(0,0,0,0.8);
+	}
+}
+
+.D {
+	background: {
+		image: url(../img/DavidHolmes_Lifting_The_Building.jpg);
+		repeat: no-repeat;
+		size: cover;
+	}
+	.boutonD {
+		border-radius: 50%;
+		width: 30%;
+		height: 30%;
+		margin-top: 35%;
+		margin-left: 35%;
+		position: relative;
+		z-index: 2;
+		background-color: rgba(0,0,0,0.8);
+	}
+}
+
+.E {
+	background: {
+		image: url(../img/Eric_Demarsan_Thème_De_Mathilde.jpg);
+		repeat: no-repeat;
+		size: cover;
+	}
+	.boutonE {
+		border-radius: 50%;
+		width: 30%;
+		height: 30%;
+		margin-top: 35%;
+		margin-left: 35%;
+		position: relative;
+		z-index: 2;
+		background-color: rgba(0,0,0,0.8);
+	}
+}
+
+.F {
+	background: {
+		image: url(../img/GalatasarayLisesi_Zazie.jpg);
+		repeat: no-repeat;
+		size: cover;
+	}
+	.boutonF {
+		border-radius: 50%;
+		width: 30%;
+		height: 30%;
+		margin-top: 35%;
+		margin-left: 35%;
+		position: relative;
+		z-index: 2;
+		background-color: rgba(0,0,0,0.8);
+	}
+}
+
+.G {
+	background: {
+		image: url(../img/Galtmac_shapesofRhythm.jpg);
+		repeat: no-repeat;
+		size: cover;
+	}
+	.boutonG {
+		border-radius: 50%;
+		width: 30%;
+		height: 30%;
+		margin-top: 35%;
+		margin-left: 35%;
+		position: relative;
+		z-index: 2;
+		background-color: rgba(0,0,0,0.8);
+	}
+}
+
+.H {
+	background: {
+		image: url(../img/Guido&MaurizioDeAngelis_Speed_Fever.jpg);
+		repeat: no-repeat;
+		size: cover;
+	}
+	.boutonH {
+		border-radius: 50%;
+		width: 30%;
+		height: 30%;
+		margin-top: 35%;
+		margin-left: 35%;
+		position: relative;
+		z-index: 2;
+		background-color: rgba(0,0,0,0.8);
+	}
+}
+
+.lienBlog {
+	padding-top: 39%;
+	padding-left: 2%;
+}
