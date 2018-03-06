@@ -10,7 +10,7 @@
   height: 99vh;
   max-height: 100vh;
   grid-template-columns: 1fr;
-  grid-template-rows: 100vh 100vh 100vh 100vh 10vh; }
+  grid-template-rows: 100vh 100vh 100vh 100vh; }
   .grid .nav {
     border: 1px solid black; }
   .grid .header {

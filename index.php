@@ -18,13 +18,13 @@
 			<h1>presentation</h1>
 		</div>
 		<div class="article">
-			<h1>articles</h1>
+			<!-- <?php include('article.php'); ?> -->
 		</div>
 		<div class="contact">
 			<h1>contact</h1>
 		</div>
 		<div class="footer">
-			<h1>footer</h1>
+			<!-- <?php include('footer.php'); ?> -->
 		</div>
 	</div>
 </body>
