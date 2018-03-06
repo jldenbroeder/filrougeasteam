@@ -20,13 +20,12 @@
       </div>
     </div>
     <div class="grid">
-      <div class="presentation">
         <?php include('presentation.php');?>
       </div>
     </div>
     <div class="grid">
       <div class="article">
-        <!-- <?php include('article.php'); ?> -->
+        <?php include('article.php'); ?> 
       </div>
     </div>
     <div class="grid">
@@ -36,7 +35,7 @@
     </div>
     <div class="grid">
       <div class="footer">
-        <!-- <?php include('footer.php'); ?> -->
+        <?php include('footer.php'); ?> 
       </div>
     </div>
     <script type="text/javascript" src="assets/js/script-nav.js"></script>
