@@ -1,16 +1,22 @@
 @charset "UTF-8";
 h1 {
-  text-align: center; }
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: -1%; }
 
 h5 {
   text-align: center;
-  margin-bottom: -1vh; }
+  margin-top: 2%; }
+
+a {
+  text-decoration: none;
+  color: white; }
 
 .sectionArticle {
   display: grid;
-  width: 98vw;
+  width: 99vw;
   max-width: 100vw;
-  height: 99vh;
+  height: 100vh;
   max-height: 100vh;
   font-family: ubuntu;
   color: rgba(255, 255, 255, 0.9);
@@ -42,8 +48,6 @@ h5 {
     position: relative;
     z-index: 2;
     background-color: rgba(0, 0, 0, 0.8); }
-    .A .boutonA .textA {
-      color: black; }
 
 .B {
   background-image: url(../img/AshaBhosl_dumMaroDum.jpg);
@@ -143,8 +147,8 @@ h5 {
     z-index: 2;
     background-color: rgba(0, 0, 0, 0.8); }
 
-.w0 {
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg); }
+.lienBlog {
+  padding-top: 39%;
+  padding-left: 2%; }
 
 /*# sourceMappingURL=article.css.map */
