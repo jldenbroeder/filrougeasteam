@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>disquaire</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="assets/css/article.css">
-	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-</head>
-<body>
 	<section class="sectionArticle">
 		<h1>Les derniers articles du blog</h1>
 		<div class="gridArticle">
@@ -53,5 +44,3 @@
 		</div>
 		<a href=""><h5>Venez voir notre blog</h5></a>
 	</section>
-</body>
-</html>

@@ -8,18 +8,16 @@ html body {
   height: 100vh;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  background-color: #f1e4a7;
 }
 .grid-nav {
   display: grid;
-  height: 10vh;
+  height: auto;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  background-color: #9e9981;
 }
 .grid-header {
   display: grid;
-  height: 90vh;
+  height: 100vh;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   background-color: #b3bee8;
@@ -34,6 +32,12 @@ html body {
   justify-items: center;
   align-items: center;
   z-index: 1;
+}
+.grid-footer {
+  display: grid;
+  height: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }
 .nav {
   grid-column: 1;
