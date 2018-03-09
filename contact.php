@@ -20,16 +20,37 @@ if (isset($_POST['register']))
 	<link rel="stylesheet" type="text/css" href="assets/css/styleContact.css">
 </head>
 <body>
-	<div id="contact">
-		<div>
-			<p>mail:soleilrare@gmail.com<br>youtube:tafuturechaineyoutube<br>facebook
+	<div class="gridContact">
+		<div class="contactMe">
+			<h1>Contact me</h1><br><br>
+			<p>mail: soleilrare@gmail.com<br><br>
+				youtube: tafuturechaineyoutube<br><br>
+				facebook: Monsieur Smith
 			</p>
-		<div id="formulaire">
-			<form method="post" action="user_1.php">
-				<input type="text" name="nom" value="firstname" required="true">
-				<input type="text" name="prenom" value="name" required="true">
-				<input type="submit" name="register" value="register">
-			</form>
+		</div>
+		<div class="formulaire">
+			<div class="styleFormulaire">
+				<div class="titre">
+					<h1>Send me a message directly here</h1><br>
+				</div>
+				<div class="infosVisiteur">
+					<p><form method="post" action="user_1.php">
+						<input class="infos" type="text" name="nom" placeholder="firstname" required="true"><br>
+						<input class="infos" type="text" name="prenom" placeholder="name" required="true"><br>
+						<input class="infos" type="email" name="email" placeholder="email" required="true">
+					</form></p>
+				</div>
+				<div class="messageVisiteur">
+					<form method="post" action="user_1.php">
+						<textarea class="message" type="text" name="message" rows="6"></textarea>
+					</form>
+				</div>
+				<div class="envoi">
+					<form method="post" action="user_1.php">
+						<input class="bouton" type="submit" name="register" value="register">
+					</form>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>

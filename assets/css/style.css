@@ -4,7 +4,6 @@ body {
 
 .grid {
   display: grid;
-  height: 100vh;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr; }
 
@@ -33,7 +32,6 @@ body {
 
 .grid-footer {
   display: grid;
-  height: auto;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr; }
 

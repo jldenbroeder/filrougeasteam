@@ -1,17 +1,74 @@
-#contact{
-	width: 99vw;
-	max-width:100vw;
+.gridContact {
+	display: grid;
 	height: 99vh;
 	max-height: 100vh;
 	background-image:url(../img/Presentation1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	display: flex;
+	font-family: ubuntu;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
 }
 
-#formulaire{
-	background-color: red;
-	width: 100%;
-	height: 70%;
-	margin-left: 20%;
+.contactMe {
+	align-self: center;
+	justify-self: center;
+	background-color: rgba(255,255,255,0.6);
+}
+
+.formulaire {
+	align-self: center;
+	justify-self: center;
+	width: 85%;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 1%;
+}
+
+.styleFormulaire {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 2fr 1fr;
+}
+
+.titre {
+	grid-column: 1 / span 2;
+	grid-row: 1;
+}
+
+.infosVisiteur {
+	grid-column: 1;
+	grid-row: 2;
+	.infos {
+		margin-top: 3%;
+		margin-bottom: 3%;
+		margin-left: 9%;
+		border-radius: 2%;
+	}
+}
+
+.messageVisiteur {
+	grid-column: 2;
+	grid-row: 2;
+ 	.message {
+ 		display: block;
+		margin-top: 3%;
+		width: 91%;
+		resize: none;
+		border-radius: 2%;
+	}
+}
+
+.envoi {
+	grid-column: 1 / span 2;
+	grid-row: 3;
+	.bouton {
+		background-color: rgba(47,182,210,0.7);
+		border: none;
+		margin-top: 2%;
+		margin-left: 5%;
+		width: 15%;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		border-radius: 10%;
+	}
 }

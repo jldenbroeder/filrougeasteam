@@ -32,7 +32,7 @@
         <?php include('contact.php');?>
       </div>
     </div>
-    <div class="grid">
+    <div class="grid-footer">
       <div class="footer">
         <?php include('footer.php'); ?>
       </div>
