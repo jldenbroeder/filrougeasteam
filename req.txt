@@ -1,0 +1,3 @@
+SELECT articles.id_article, articles.titre, articles.paragraphe, articles_h_categories.id_categorie FROM articles, articles_h_categories WHERE articles_h_categories.id_article = 31 GROUP BY articles_h_categories.id_categorie
+
+
