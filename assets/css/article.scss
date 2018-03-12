@@ -1,12 +1,14 @@
 h1 {
 	text-align: center;
-	margin-top: 1%;
-	margin-bottom: -1%;
+	margin-bottom: 1%;
+	padding-top: 1%;
+	background-color: rgba(0,0,0,0.9)
 }
 
 h5 {
 	text-align: center;
 	margin-top: 2%;
+	color: black;
 }
 
 a {
@@ -19,7 +21,7 @@ a {
 	height: 100vh;
 	max-height: 100vh;
 	font-family: ubuntu;
-	color: rgba(255,255,255,0.9);
+	color: rgb(186,186,186);
 	background: {
 		// image: url(../img/fondarticle.jpg);
 		image:url(../img/presentation0.jpg);

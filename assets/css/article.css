@@ -1,12 +1,14 @@
 @charset "UTF-8";
 h1 {
   text-align: center;
-  margin-top: 1%;
-  margin-bottom: -1%; }
+  margin-bottom: 1%;
+  padding-top: 1%;
+  background-color: rgba(0, 0, 0, 0.9); }
 
 h5 {
   text-align: center;
-  margin-top: 2%; }
+  margin-top: 2%;
+  color: black; }
 
 a {
   text-decoration: none;
@@ -17,7 +19,7 @@ a {
   height: 100vh;
   max-height: 100vh;
   font-family: ubuntu;
-  color: rgba(255, 255, 255, 0.9);
+  color: #bababa;
   background-image: url(../img/presentation0.jpg);
   background-repeat: no-repeat;
   background-size: cover; }

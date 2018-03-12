@@ -1,7 +1,7 @@
 .presentation {
   height: 99vh;
   max-height: 100vh;
-  backgroun-image: url(../img/fondarticle.jpg); }
+  background-image: url(../img/fondarticle.jpg); }
 
 #calque {
   display: -webkit-box;
