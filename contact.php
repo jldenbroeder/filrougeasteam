@@ -18,9 +18,12 @@ if (isset($_POST['register']))
 	<meta charset="UTF-8">
 	<title>Contact</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/styleContact.css">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Cherry+Cream+Soda|Faster+One|Frijole|Poller+One|Salsa|Sonsie+One|Titan+One|Zilla+Slab+Highlight" rel="stylesheet">
 </head>
 <body>
+	<!-- <h1 class="titre_contact">Contact</h1> -->
 	<div class="gridContact">
+		<h1 class="titre_contact">Contact</h1>
 		<div class="contactMe">
 			<h1>Contact me</h1><br><br>
 			<p>mail: soleilrare@gmail.com<br><br>
@@ -35,9 +38,9 @@ if (isset($_POST['register']))
 				</div>
 				<div class="infosVisiteur">
 					<p><form method="post" action="user_1.php">
-						<input class="infos" type="text" name="nom" placeholder="firstname" required="true"><br>
-						<input class="infos" type="text" name="prenom" placeholder="name" required="true"><br>
-						<input class="infos" type="email" name="email" placeholder="email" required="true">
+						<input class="infos" type="text" name="nom" placeholder=" firstname" required="true"><br>
+						<input class="infos" type="text" name="prenom" placeholder=" name" required="true"><br>
+						<input class="infos" type="email" name="email" placeholder=" email" required="true">
 					</form></p>
 				</div>
 				<div class="messageVisiteur">

@@ -4,10 +4,12 @@
 	<meta charset="UTF-8">
 	<title>Présentation</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/stylePresentation.css">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Cherry+Cream+Soda|Faster+One|Frijole|Poller+One|Salsa|Sonsie+One|Titan+One|Zilla+Slab+Highlight|Londrina+Sketch" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
 </head>
 <body>
 	<div class="presentation">
+		<h1 class="titre_presentation">Presentation</h1>
 		<div id="calque">
 			<div id="profil">
 				<img id="profilimg" src="assets/img/nico.jpg" alt="photo d'un homme allongé devant un paysage">

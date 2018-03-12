@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style-nav.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style-head.css">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Cherry+Cream+Soda|Faster+One|Frijole|Poller+One|Salsa|Sonsie+One|Titan+One|Zilla+Slab+Highlight" rel="stylesheet">
   </head>
   <body>
     <div class="grid-nav">
