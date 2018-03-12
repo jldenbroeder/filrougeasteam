@@ -64,6 +64,9 @@ html body {
   grid-column: 1;
   grid-row: 1;
 }
-
+.blog {
+  grid-column: 1;
+  grid-row: 1;
+}
 
 /*# sourceMappingURL=style.css.map */

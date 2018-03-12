@@ -36,11 +36,8 @@
     </div>
     <div class="grid-footer">
       <div class="footer">
-<<<<<<< HEAD
         <?php include('footer.php'); ?>
-=======
         <?php include('footer.php'); ?> 
->>>>>>> 2839661b366a8e6b26d7707338c8cdaf3fd94c33
       </div>
     </div>
     <script type="text/javascript" src="assets/js/script-nav.js"></script>
