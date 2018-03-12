@@ -4,6 +4,7 @@
 	height: 99vh;
 	max-height: 100vh;
 	background-image:url(../img/presentation0.jpg);
+	background-repeat: no-repeat;
 }
 
 #calque{
