@@ -1,3 +1,6 @@
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Cherry+Cream+Soda|Faster+One|Frijole|Poller+One|Salsa|Sonsie+One|Titan+One|Zilla+Slab+Highlight" rel="stylesheet">
+</head>
 <div class="topnav" id="myTopnav">
   <a href="#presentation">Présentation</a>
   <a href="#blog">Blog</a>

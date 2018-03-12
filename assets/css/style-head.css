@@ -1,43 +1,70 @@
-.head-slider{ 
-  width: 300px; 
-  height: 300px; 
-  overflow: hidden; 
-  margin: 0 auto; 
-  box-shadow: 1px 1px 20px #d5d5d5;
-  z-index: 10;
-} 
-.head-slides{ 
-  width: calc(300px * 3); 
-  animation: glisse 7s infinite; 
-} 
-.head-slide{ 
-  float:left 
-} 
+.head-slider {
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+  margin: 0 auto;
+  -webkit-box-shadow: 1px 1px 20px #d5d5d5;
+          box-shadow: 1px 1px 20px #d5d5d5;
+  z-index: 10; }
 
-@keyframes glisse { 
-  0% { 
-    transform: translateX(0); 
-  } 
-  25% { 
-    transform: translateX(0); 
-  } 
-  35% { 
-    transform: translateX(-300px); 
-  } 
-  60% { 
-    transform: translateX(-300px); 
-  }
-  70% { 
-    transform: translateX(-600px); 
-  } 
-  95% { 
-    transform: translateX(-600px); 
-  }
-  100% { 
-    transform: translateX(0); 
-  } 
+.head-slides {
+  width: calc(600px * 3);
+  -webkit-animation: glisse 7s infinite;
+          animation: glisse 7s infinite; }
+
+.head-slide {
+  float: left; }
+
+@-webkit-keyframes glisse {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); }
+  25% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); }
+  35% {
+    -webkit-transform: translateX(-600px);
+            transform: translateX(-600px); }
+  60% {
+    -webkit-transform: translateX(-600px);
+            transform: translateX(-600px); }
+  70% {
+    -webkit-transform: translateX(-1200px);
+            transform: translateX(-1200px); }
+  95% {
+    -webkit-transform: translateX(-1200px);
+            transform: translateX(-1200px); }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); } }
+
+@keyframes glisse {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); }
+  25% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); }
+  35% {
+    -webkit-transform: translateX(-600px);
+            transform: translateX(-600px); }
+  60% {
+    -webkit-transform: translateX(-600px);
+            transform: translateX(-600px); }
+  70% {
+    -webkit-transform: translateX(-1200px);
+            transform: translateX(-1200px); }
+  95% {
+    -webkit-transform: translateX(-1200px);
+            transform: translateX(-1200px); }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); } }
+
+.head-slide img{
+
+  width: 600px;
+  height: 600px;
+
 }
-
-@media screen and (max-width: 600px) {
-
-}
+/*# sourceMappingURL=style-head.css.map */

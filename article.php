@@ -5,10 +5,13 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="assets/css/article.css">
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Cherry+Cream+Soda|Faster+One|Frijole|Poller+One|Salsa|Sonsie+One|Titan+One|Zilla+Slab+Highlight" rel="stylesheet">
 </head>
 <body>
 	<section class="sectionArticle">
-		<h1>Les derniers articles du blog</h1>
+		<div classe="plainte">
+			<h1 class="titre_article">Les derniers articles du blog</h1>
+		</div>
 		<div class="gridArticle">
 			<div class="articles A">
 				<div class="boutonA">
@@ -51,7 +54,7 @@
 				</div>
 			</div>
 		</div>
-		<a href=""><h5>Venez voir notre blog</h5></a>
+		<button class="bouton_blog"><a href=""><h4>Venez voir notre blog</h4></a></button>
 	</section>
 </body>
 </html>
