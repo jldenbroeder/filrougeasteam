@@ -49,7 +49,7 @@ if (isset($_POST['register']))
 					</form>
 				</div>
 				<div class="envoi">
-					<form method="post" action="user_1.php">
+					<form class="form_contact" method="post" action="user_1.php">
 						<input class="bouton" type="submit" name="register" value="register">
 					</form>
 				</div>
