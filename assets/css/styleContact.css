@@ -47,10 +47,13 @@
 .titre {
   grid-column: 1 / span 2;
   grid-row: 1; }
+  .titre h1 {
+    padding-top: 2%; }
 
 .infosVisiteur {
   grid-column: 1;
-  grid-row: 2; }
+  grid-row: 2;
+  margin-top: 17%; }
   .infosVisiteur .infos {
     margin-top: 3%;
     margin-bottom: 3%;
@@ -59,7 +62,8 @@
 
 .messageVisiteur {
   grid-column: 2;
-  grid-row: 2; }
+  grid-row: 2;
+  padding-top: 17%; }
   .messageVisiteur .message {
     display: block;
     margin-top: 3%;
@@ -70,14 +74,35 @@
 .envoi {
   grid-column: 1 / span 2;
   grid-row: 3; }
+  .envoi a {
+    text-decoration: none; }
   .envoi .bouton {
     background-color: rgba(179, 133, 64, 0.7);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(196, 146, 71, 0.7)), to(rgba(122, 90, 43, 0.7)));
+    background: linear-gradient(rgba(196, 146, 71, 0.7), rgba(122, 90, 43, 0.7));
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3);
     border: none;
+    outline: none;
     margin-top: 2%;
     margin-left: 29%;
     width: 40%;
     padding-top: 2%;
     padding-bottom: 2%;
     font-size: 18px; }
+
+.bouton:hover {
+  color: #222222;
+  background-color: rgba(189, 140, 67, 0.7);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(204, 152, 74, 0.7)), to(rgba(115, 85, 40, 0.7)));
+  background: linear-gradient(rgba(204, 152, 74, 0.7), rgba(115, 85, 40, 0.7)); }
+
+.bouton:active {
+  color: black;
+  outline: none;
+  background-color: rgba(179, 133, 64, 0.7);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(196, 146, 71, 0.7)), to(rgba(122, 90, 43, 0.7)));
+  background: linear-gradient(rgba(196, 146, 71, 0.7), rgba(122, 90, 43, 0.7));
+  -webkit-box-shadow: 1px 1px 20px black inset, 0 1px 0 rgba(255, 255, 255, 0.4);
+          box-shadow: 1px 1px 20px black inset, 0 1px 0 rgba(255, 255, 255, 0.4); }
 
 /*# sourceMappingURL=styleContact.css.map */
