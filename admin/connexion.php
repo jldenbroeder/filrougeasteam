@@ -53,9 +53,11 @@ if ( (isset($_POST['password'])) && (!empty($_POST['password'])) )
 
       // Si password identique
       if ($password == $passwordDB){
-        $_SESSION['login'] = $login;
-        // header('Location: index.php');
-        echo 'ça marche';
+        $_SESSION['login'] = $login; //$_SESSION est un marqueur pour dire que l'utilisateur est bien passé par la page de connexion pour arriver à l'index de l'admin
+        
+        header('Location: index.php');//redirige à l'index admin
+
+        
       }
     }
 }
