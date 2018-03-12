@@ -1,6 +1,6 @@
 .head-slider {
-  width: 300px;
-  height: 300px;
+  width: 600px;
+  height: 600px;
   overflow: hidden;
   margin: 0 auto;
   -webkit-box-shadow: 1px 1px 20px #d5d5d5;
@@ -8,7 +8,7 @@
   z-index: 10; }
 
 .head-slides {
-  width: calc(300px * 3);
+  width: calc(600px * 3);
   -webkit-animation: glisse 7s infinite;
           animation: glisse 7s infinite; }
 
@@ -23,17 +23,17 @@
     -webkit-transform: translateX(0);
             transform: translateX(0); }
   35% {
-    -webkit-transform: translateX(-300px);
-            transform: translateX(-300px); }
+    -webkit-transform: translateX(-600px);
+            transform: translateX(-600px); }
   60% {
-    -webkit-transform: translateX(-300px);
-            transform: translateX(-300px); }
+    -webkit-transform: translateX(-600px);
+            transform: translateX(-600px); }
   70% {
-    -webkit-transform: translateX(-600px);
-            transform: translateX(-600px); }
+    -webkit-transform: translateX(-1200px);
+            transform: translateX(-1200px); }
   95% {
-    -webkit-transform: translateX(-600px);
-            transform: translateX(-600px); }
+    -webkit-transform: translateX(-1200px);
+            transform: translateX(-1200px); }
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0); } }
@@ -46,19 +46,25 @@
     -webkit-transform: translateX(0);
             transform: translateX(0); }
   35% {
-    -webkit-transform: translateX(-300px);
-            transform: translateX(-300px); }
+    -webkit-transform: translateX(-600px);
+            transform: translateX(-600px); }
   60% {
-    -webkit-transform: translateX(-300px);
-            transform: translateX(-300px); }
+    -webkit-transform: translateX(-600px);
+            transform: translateX(-600px); }
   70% {
-    -webkit-transform: translateX(-600px);
-            transform: translateX(-600px); }
+    -webkit-transform: translateX(-1200px);
+            transform: translateX(-1200px); }
   95% {
-    -webkit-transform: translateX(-600px);
-            transform: translateX(-600px); }
+    -webkit-transform: translateX(-1200px);
+            transform: translateX(-1200px); }
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0); } }
 
+.head-slide img{
+
+  width: 600px;
+  height: 600px;
+
+}
 /*# sourceMappingURL=style-head.css.map */

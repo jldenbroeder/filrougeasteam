@@ -9,7 +9,9 @@
 </head>
 <body>
 	<section class="sectionArticle">
-		<h1 class="titre_article">Les derniers articles du blog</h1>
+		<div classe="plainte">
+			<h1 class="titre_article">Les derniers articles du blog</h1>
+		</div>
 		<div class="gridArticle">
 			<div class="articles A">
 				<div class="boutonA">
