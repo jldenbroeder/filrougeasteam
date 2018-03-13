@@ -1,24 +1,24 @@
-
 <?php
+$url = "http://".$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"];
 
-	// Connexion à la base de données MySQL en LOCALHOST
-
-
-$db = "filerougeasteam"; // Nom de la base de données
-
-
+if (strpos($url, "localhost/")){
+  $host = "localhost";
+  $db = "filerougeasteam";
+  $user = "root";
+  $pass = "";
+}
+else{
+  $host = "localhost";
+  $db = "id5008734_jeanluc";
+  $user = "id5008734_jldenbroeder";
+  $pass = "jl871245jdetmf";
+}
 try
 {
- 
-  $bdd = new PDO('mysql:host=localhost;dbname='.$db.';charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+  $bdd = new PDO('mysql:host='.$host.';dbname='.$db.';charset=utf8', ''.$user.'', ''.$pass.'', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 }
 catch (Exception $e)
 {
-	
-// Pour veriffier si il y a une erreur et son type d'erreur
-
   die('ERREUR PDO dans ' . $e->getFile() . ' L.' . $e->getLine() . ' : ' . $e->getMessage());
 }
-
-
 ?>
