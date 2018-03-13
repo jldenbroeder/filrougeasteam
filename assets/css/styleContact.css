@@ -8,18 +8,10 @@
   display: -ms-flexbox;
   display: flex; }
 
-
-#formulaire{
-	background-color: red;
-	width: 100%;
-	height: 70%;
-	margin-left: 20%;
-}
-
-#formulaire input{
-	
-}
-
+#formulaire {
+  background-color: red;
+  width: 100%;
+  height: 70%;
+  margin-left: 20%; }
 
 /*# sourceMappingURL=styleContact.css.map */
-
