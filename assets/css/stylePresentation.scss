@@ -1,7 +1,17 @@
 .presentation{
-	height: 100vh;
+	height: 99vh;
 	max-height: 100vh;
-	background-image:url(../img/presentation0.jpg);
+	// background-image:url(../img/presentation0.jpg);
+	background-image: url(../img/presentation.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+.titre_presentation {
+	background-color: rgba(179,133,64,0.7);
+	margin-bottom: 3%;
+	padding-top: 1%;
+	font-family: "Sonsie One", "cursive";
 }
 
 #calque{
@@ -9,38 +19,35 @@
 	width: 50vw;
 	height: 50vh;
 	margin-top: 15%;
-	
-	
 }
 
 
 #profil{
-	width: 25vw;
-	height: 50vh;
+	width: 50%;
+	height: 99%;
 	background-color: black;
 	margin-left: 5%;
 	/*background-color: rgba(138,102,61,0.7);*/
 	margin-right: 0;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(213,195,170,0.7);
 }
 
 #textprofil{
-	
-
-	width: 25vw;
-	height: 50vh;
-	color:white;
+	width: 45%;
+	height: 99%;
+	color:black;
 	margin-left: 5%;
 	/*background-color: rgba(138,102,61,0.7);*/
 	margin: 0;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(213,195,170,0.7);
 }
 
 #textprofil p{
-	margin-top: 15%;
+	margin-top: 26%;
 	margin-right: 10%;
 	text-align: center;
-	font-size: 2vh;
+	font-size: 11px;
+	font-family: 'Sonsie One', 'cursive';
 }
 
 #hello{
